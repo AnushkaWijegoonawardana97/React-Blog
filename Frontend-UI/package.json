@@ -1,0 +1,20 @@
+{
+  "name": "react-blog-frontend-ui",
+  "version": "1.0.0",
+  "description": "This is the frontend ui of my react-redux blog",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/theme.scss ./dist/css/theme.css",
+    "prefix": "postcss ./dist/css/theme.css --use autoprefixer -d ./dist/css/prefixed/"
+  },
+  "author": "Anushka Wijegoonawardana",
+  "license": "MIT",
+  "dependencies": {
+    "autoprefixer": "^10.2.4",
+    "bootstrap": "^5.0.0-beta2",
+    "postcss": "^8.2.6",
+    "postcss-cli": "^8.3.1",
+    "sass": "^1.32.8"
+  },
+  "browserslist": "last 5 versions"
+}

@@ -1,0 +1,21 @@
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+// this is over custome css
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    div {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}
